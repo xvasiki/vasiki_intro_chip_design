@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     477273380605640705       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Three-State Level Stepper"      # Project title
+  author:       "Vasiki Konneh"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "A clock-driven 3-level gauge that steps up or down between red, yellow, and green on an RGB LED using flip-flops, muxes, and XOR logic."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,9 +16,9 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
+  ui[0]: "DIR"
+  ui[1]: "LED_R"
+  ui[2]: "LED_G"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
